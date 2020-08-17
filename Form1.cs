@@ -80,9 +80,7 @@ namespace RCLite
 
                 //Если есть 0 в начале, удаляем эти 0
                 if (tb.Text.StartsWith("0"))
-                {
                     tb.Text = tb.Text.TrimStart(new Char[] { '0' });
-                }
                 //Если в начале разделитель, добавляем 0
                 if (tb.Text.StartsWith(","))
                     tb.Text = "0" + tb.Text;
