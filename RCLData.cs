@@ -3,7 +3,6 @@
     public class RCLData
     {
 
-
         // Навеска дроби
         public double ShotCharge { get; }
         // Стоимость дроби
@@ -21,8 +20,7 @@
         // Стоимость капсюля
         public double PrimerPrice { get; }
 
-
-
+        //Собираем введенные данные
         public RCLData(double shotCharge,
                        double shotPrice,
                        double powderPrice,
@@ -32,7 +30,6 @@
                        double wadPrice,
                        double primerPrice)
         {
-            // TODO: Проверки
             ShotCharge = shotCharge;
             ShotPrice = shotPrice;
             PowderVolume = powderVolume;
@@ -42,7 +39,5 @@
             WadPrice = wadPrice;
             PrimerPrice = primerPrice;
         }
-
-
     }
 }
